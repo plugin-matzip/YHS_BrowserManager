@@ -1,0 +1,25 @@
+{
+	"name": "serviceworker",
+	"version": "1.0.0",
+	"main": "index.ts",
+	"scripts": {
+		"dev": "ts-node src",
+		"build": "webpack",
+		"start": "node dist/index.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"devDependencies": {
+		"@types/chrome": "^0.0.287",
+		"@types/node": "^22.10.1",
+		"ts-loader": "^9.5.1",
+		"typescript": "^5.7.2",
+		"webpack": "^5.97.1",
+		"webpack-cli": "^5.1.4"
+	},
+	"dependencies": {
+		"korean-ime-simple": "^1.4.0"
+	},
+	"type": "module"
+}

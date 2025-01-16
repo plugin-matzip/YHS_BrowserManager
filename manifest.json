@@ -1,0 +1,21 @@
+{
+	"manifest_version": 3,
+	"name": "Browser Data Manager",
+	"version": "1.0",
+	"permissions": ["browsingData", "cookies", "activeTab", "notifications"],
+	"host_permissions": ["*://*/*"],
+	"background": {
+	  "service_worker": "dist/background.js"
+	},
+	"action": {
+	  "default_popup": "popup.html"
+	},
+	"web_accessible_resources": [
+		{
+			"resources": ["images/alarm.png"],
+			"matches": ["<all_urls>"]
+		}
+	]
+
+  }
+  
